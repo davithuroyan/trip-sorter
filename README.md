@@ -10,6 +10,7 @@ Clone or Download zip and run :
 
 ```bash
 clone https://github.com/davithuroyan/trip-sorter.git ./trip-sorter
+cd trip-sorter
 composer install
 
 ```
