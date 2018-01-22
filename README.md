@@ -10,6 +10,7 @@ Clone or Download zip and run :
 
 ```bash
 clone https://github.com/davithuroyan/trip-sorter.git ./trip-sorter
+cd trip-sorter
 composer install
 
 ```
@@ -39,7 +40,7 @@ composer install
     }   
 ```
 
-* input params format is:
+4. input params format is:
 
 ```
 $boardingCards = [
@@ -57,7 +58,6 @@ $boardingCards = [
         "from" => "Barcelone",
         "to" => "Paris",
         "type" => "airport_bus",
-        "number" => "1034",
         "seat" => "14",
     ],
     [
@@ -67,11 +67,17 @@ $boardingCards = [
         "number" => "5074",
         "seat" => "45",
     ],
+     [
+        "from" => "London",
+        "to" => "Lion",
+        "type" => "train",
+        "number"=>"x123",
+        "seat" => "65C"
+    ],
     [
         "from" => "Paris",
         "to" => "Berlin",
         "type" => "airport_bus",
-        "number" => "7654",
         "seat" => "69",
     ],
 
