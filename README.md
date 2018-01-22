@@ -40,7 +40,7 @@ composer install
     }   
 ```
 
-* input params format is:
+4. input params format is:
 
 ```
 $boardingCards = [
