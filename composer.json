@@ -1,0 +1,15 @@
+{
+  "name": "davit/trip",
+  "description": "Using this API you can sort boarding cards you have.",
+  "authors": [
+    {
+      "name": "Davit Huroyan",
+      "email": "davithuroyan@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "src/app"
+    }
+  }
+}
