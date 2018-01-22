@@ -58,7 +58,6 @@ $boardingCards = [
         "from" => "Barcelone",
         "to" => "Paris",
         "type" => "airport_bus",
-        "number" => "1034",
         "seat" => "14",
     ],
     [
@@ -68,11 +67,17 @@ $boardingCards = [
         "number" => "5074",
         "seat" => "45",
     ],
+     [
+        "from" => "London",
+        "to" => "Lion",
+        "type" => "train",
+        "number"=>"x123",
+        "seat" => "65C"
+    ],
     [
         "from" => "Paris",
         "to" => "Berlin",
         "type" => "airport_bus",
-        "number" => "7654",
         "seat" => "69",
     ],
 
